@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/backgroundColor"
+    tools:context=".fragments.SettingsFragment">
+
+    <TextView
+        android:id="@+id/textView13"
+        style="@style/viewParent.headerText.settingsMiniTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="62dp"
+        android:fontFamily="@font/artifika_regular"
+        android:text="version 1.0"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.21" />
+
+    <ImageView
+        android:id="@+id/ProfileBackgorund"
+        android:layout_width="416dp"
+        android:layout_height="189dp"
+        android:background="@drawable/bg_2"
+        app:layout_constraintBottom_toTopOf="@id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/ProfileImage"
+        android:layout_width="124dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="53dp"
+        android:src="@drawable/settings_icon1"
+        app:layout_constraintBottom_toBottomOf="@id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/guideline"
+        app:layout_constraintVertical_bias="0.338" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="186dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/aclonica_tryit"
+        android:shadowColor="@color/white"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5"
+        android:text="@string/Settings_1"
+        android:textColor="@color/blackNavy"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/ProfileBackgorund"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:id="@+id/settingssScrollView"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ProfileImage"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/darkModeSwitch"
+                style="@style/settingsText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_dark_mode"
+                android:text="@string/settings_8"
+                android:textColor="@color/miniTitle"
+                android:thumb="@drawable/thumb"
+                android:track="@drawable/track"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <TextView
+                android:id="@+id/textView5"
+                style="@style/viewParent.headerText.settingsMiniTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/profile"
+                android:textColor="@color/titleColor" />
+
+            <TextView
+                android:id="@+id/changeProfile"
+                style="@style/viewParent.headerText.settingsTextIcon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/settings_2"
+                android:textColor="@color/miniTitle"
+                app:drawableLeftCompat="@drawable/ic_edit_profile" />
+
+            <TextView
+                android:id="@+id/changePassword"
+                style="@style/viewParent.headerText.settingsTextIcon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/settings_3"
+                android:textColor="@color/miniTitle"
+                app:drawableLeftCompat="@drawable/ic_edit_password" />
+
+            <TextView
+                android:id="@+id/textView10"
+                style="@style/viewParent.headerText.settingsMiniTitle"
+                android:layout_width="336dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="302dp"
+                android:text="@string/regional"
+                android:textColor="@color/titleColor" />
+
+            <TextView
+                android:id="@+id/language"
+                style="@style/viewParent.headerText.settingsTextIcon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/settings_4"
+                android:textColor="@color/miniTitle"
+                app:drawableLeftCompat="@drawable/ic_languages" />
+
+            <TextView
+                android:id="@+id/textView9"
+                style="@style/viewParent.headerText.settingsMiniTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/security"
+                android:textColor="@color/titleColor" />
+
+            <Switch
+                android:id="@+id/authentication"
+                style="@style/settingsText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/ic_icons8_touch_id"
+                android:text="@string/authentication"
+                android:textColor="@color/miniTitle"
+                android:thumb="@drawable/thumb"
+                android:track="@drawable/track"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <TextView
+                android:id="@+id/textView6"
+                style="@style/viewParent.headerText.settingsMiniTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/other"
+                android:textColor="@color/titleColor" />
+
+            <TextView
+                android:id="@+id/faq"
+                style="@style/viewParent.headerText.settingsTextIcon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/settings_5"
+                android:textColor="@color/miniTitle"
+                app:drawableLeftCompat="@drawable/ic_question" />
+
+            <TextView
+                android:id="@+id/contact_us"
+                style="@style/viewParent.headerText.settingsTextIcon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="@string/settings_6"
+                android:textColor="@color/miniTitle"
+                app:drawableLeftCompat="@drawable/ic_email" />
+
+            <TextView
+                android:id="@+id/logOut"
+                style="@style/viewParent.headerText.settingsTextIcon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="@string/settings_7"
+                android:textColor="@color/miniTitle"
+                app:drawableLeftCompat="@drawable/ic_logout" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

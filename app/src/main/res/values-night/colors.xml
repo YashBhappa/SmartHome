@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E68446</color>
+    <color name="colorPrimaryDark">#ad5a28</color>
+    <color name="colorPrimaryLight">#ffb881</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="backgroundColor">@color/blackNavy</color>
+    <color name="textColor">#BF171616</color>
+    <color name="titleColor">#FFFFFF</color>
+    <color name="hintColor">#868686</color>
+    <color name="miniTitle">#BFCFCFCF</color>
+    <color name="textColor1">#C8BBBB</color>
+    <color name="PhoneText">#ffffff</color>
+</resources>

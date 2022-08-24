@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/addDevice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/artifika_regular"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:text="Add Device"
+        android:textColor="@color/titleColor"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/enterDeviceName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/input_background"
+        android:hint="Enter Device Name"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/hintColor"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textSize="12dp" />
+</LinearLayout>

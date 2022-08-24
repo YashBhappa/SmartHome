@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "11010931493",
+    "firebase_url": "https://smart-homes-6412c-default-rtdb.firebaseio.com",
+    "project_id": "smart-homes-6412c",
+    "storage_bucket": "smart-homes-6412c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11010931493:android:accd43b55dfbefc97078cc",
+        "android_client_info": {
+          "package_name": "com.finalyear.smarthome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11010931493-5vaqna9uro7iehrkbsnav8qg1cpbvikd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.finalyear.smarthome",
+            "certificate_hash": "ea3cb8ae1746a01bdc791008ef7757b3d300a33e"
+          }
+        },
+        {
+          "client_id": "11010931493-866rj5d7e6574toh9phqhpth0f884ngd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.finalyear.smarthome",
+            "certificate_hash": "1176e7fe87cfbfb87f1742feb1bb774ab9246ceb"
+          }
+        },
+        {
+          "client_id": "11010931493-4hoftsme1gv4gmtngq3f4g3nmmp535n1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3rCY-oagTC64F4GcbqpncDwKvZGK9ggM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11010931493-4hoftsme1gv4gmtngq3f4g3nmmp535n1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

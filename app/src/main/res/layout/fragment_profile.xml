@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".fragments.ProfileFragment">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="69dp"
+        android:layout_height="63.5dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_baseline_lock_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+    <TextView
+        android:id="@+id/frag_password"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:text="TextView"
+        android:textColor="@color/textColor1"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.668"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
+
+    <TextView
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="200dp"
+        android:layout_height="32.5dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:fontFamily="@font/artifika_regular"
+        android:text="@string/profile_5"
+        android:textColor="@color/miniTitle"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.668"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView12" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="69dp"
+        android:layout_height="63.5dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_phone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+    <TextView
+        android:id="@+id/frag_phone"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="9dp"
+        android:text="TextView"
+        android:textColor="@color/textColor1"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.653"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPhone2" />
+
+    <TextView
+        android:id="@+id/editTextPhone2"
+        android:layout_width="wrap_content"
+        android:layout_height="32.5dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:fontFamily="@font/artifika_regular"
+        android:text="@string/profile_4"
+        android:textColor="@color/miniTitle"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView11" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="70dp"
+        android:layout_height="63.5dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_baseline_email_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+    <TextView
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="200dp"
+        android:layout_height="32.5dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:fontFamily="@font/artifika_regular"
+        android:text="@string/profile_3"
+        android:textColor="@color/miniTitle"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.658"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView10" />
+
+    <TextView
+        android:id="@+id/frag_email"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:text="TextView"
+        android:textColor="@color/textColor1"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.668"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="70dp"
+        android:layout_height="63.5dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/person"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ProfileImage" />
+
+    <TextView
+        android:id="@+id/frag_name"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:text="TextView"
+        android:textColor="@color/textColor1"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.668"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="200dp"
+        android:layout_height="32.5dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:fontFamily="@font/artifika_regular"
+        android:text="@string/profile_2"
+        android:textColor="@color/miniTitle"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.658"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView9" />
+
+    <ImageView
+        android:id="@+id/ProfileBackgorund"
+        android:layout_width="416dp"
+        android:layout_height="189dp"
+        android:background="@drawable/bg_2"
+        app:layout_constraintBottom_toTopOf="@id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="0dp"
+        android:layout_height="124dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.22" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ProfileImage"
+        android:layout_width="124dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="40dp"
+        android:src="@drawable/user_profile_black"
+        app:civ_border_color="@color/textColor1"
+        app:civ_border_width="1dp"
+        app:layout_constraintBottom_toBottomOf="@id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/guideline"
+        app:layout_constraintVertical_bias="0.48" />
+
+    <TextView
+        android:id="@+id/frag_username"
+        android:layout_width="230dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:text="TextView"
+        android:textColor="@color/miniTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/profileName"
+        app:layout_constraintTop_toBottomOf="@+id/ProfileBackgorund" />
+
+    <TextView
+        android:id="@+id/profileName"
+        android:layout_width="232dp"
+        android:layout_height="35dp"
+        android:fontFamily="@font/artifika_regular"
+        android:text="TextView"
+        android:textColor="@color/dark_navy"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/ProfileBackgorund"
+        app:layout_constraintEnd_toEndOf="@+id/ProfileBackgorund"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/ProfileImage"
+        app:layout_constraintTop_toTopOf="@+id/ProfileBackgorund"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/aclonica_tryit"
+        android:shadowColor="@color/white"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5"
+        android:text="@string/profile_1"
+        android:textColor="@color/blackNavy"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/ProfileBackgorund"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="290dp"
+        android:layout_height="1dp"
+        android:layout_marginBottom="12dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.413"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frag_name"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="290dp"
+        android:layout_height="1dp"
+        android:layout_marginBottom="12dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintBottom_toTopOf="@+id/editTextPhone2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frag_email"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <View
+        android:layout_width="290dp"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.413"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frag_phone"
+        app:layout_constraintVertical_bias="0.428" />
+
+    <Button
+        android:id="@+id/changeProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/gradient_row_bg"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="Change Profile"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frag_password" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
